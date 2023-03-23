@@ -15,4 +15,5 @@ class MainActivity : AppCompatActivity() {
 
         supportFragmentManager.beginTransaction().replace(R.id.fragment_container_view, MainFragment.newInstance()).commitAllowingStateLoss()
     }
+    변경된 내용으로 수정
 }
